@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.example.UserAccountPageTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.85 s <<< FAILURE! - in org.example.UserAccountPageTest
+checkExitButtonTest(org.example.UserAccountPageTest)  Time elapsed: 4.34 s  <<< FAILURE!
+org.junit.ComparisonFailure: ExitFailed expected:<[Войти]> but was:<[Отмена]>
+	at org.example.UserAccountPageTest.checkExitButtonTest(UserAccountPageTest.java:69)
+
