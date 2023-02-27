@@ -1,0 +1,6 @@
+org/example/pageobject/MainPage.class
+org/example/pageobject/AuthorizationPage.class
+org/example/pageobject/RestorePasswordPage.class
+org/example/pageobject/UserAccountPage.class
+org/example/pageobject/RegistrationPage.class
+org/example/User.class

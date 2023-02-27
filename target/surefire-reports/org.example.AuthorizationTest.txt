@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.example.AuthorizationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 16.687 s <<< FAILURE! - in org.example.AuthorizationTest
+authorizationByRestorePasswordLinkTest(org.example.AuthorizationTest)  Time elapsed: 4.065 s  <<< FAILURE!
+org.junit.ComparisonFailure: Authorization was Failed expected:<[Оформить заказ]> but was:<[Войти]>
+	at org.example.AuthorizationTest.authorizationByRestorePasswordLinkTest(AuthorizationTest.java:91)
+
+authorizationByPersonalAccountTest(org.example.AuthorizationTest)  Time elapsed: 3.894 s  <<< FAILURE!
+org.junit.ComparisonFailure: Authorization was Failed expected:<[Оформить заказ]> but was:<[Войти]>
+	at org.example.AuthorizationTest.authorizationByPersonalAccountTest(AuthorizationTest.java:68)
+
+authorizationByRegistrationLinkTest(org.example.AuthorizationTest)  Time elapsed: 4.322 s  <<< FAILURE!
+org.junit.ComparisonFailure: Authorization was Failed expected:<[Оформить заказ]> but was:<[Войти]>
+	at org.example.AuthorizationTest.authorizationByRegistrationLinkTest(AuthorizationTest.java:79)
+
+mainPageAuthorizationButtonTest(org.example.AuthorizationTest)  Time elapsed: 4.4 s  <<< FAILURE!
+org.junit.ComparisonFailure: Authorization was Failed expected:<[Оформить заказ]> but was:<[Войти]>
+	at org.example.AuthorizationTest.mainPageAuthorizationButtonTest(AuthorizationTest.java:57)
+
