@@ -1,4 +1,4 @@
-package org.example.pageobject;
+package com.stellarburger.pageobject;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
@@ -23,7 +23,7 @@ public class MainPage {
     //  локаторы для булки
     private final By ingredientBunsButton = By.xpath("//span[text()='Булки']/..");
     private final By  checkBunsDisplayed = By.xpath(".//section[1]/div[2]/h2[1]");
-    // локаторы для начилки
+    // локаторы для начинки
     private final By ingredientFillingButton = By.xpath("//span[text()='Начинки']/..");
     private final By checkFillingDisplayed = By.xpath(".//section[1]/div[2]/h2[3]");
     // локаторы для кнопки "Оформить заказ"

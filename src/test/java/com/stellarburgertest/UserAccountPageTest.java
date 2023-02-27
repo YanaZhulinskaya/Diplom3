@@ -1,10 +1,11 @@
-package org.example;
+package com.stellarburgertest;
 
+import com.stellarburger.User;
 import io.qameta.allure.junit4.DisplayName;
-import org.example.pageobject.AuthorizationPage;
-import org.example.pageobject.MainPage;
-import org.example.pageobject.RegistrationPage;
-import org.example.pageobject.UserAccountPage;
+import com.stellarburger.pageobject.AuthorizationPage;
+import com.stellarburger.pageobject.MainPage;
+import com.stellarburger.pageobject.RegistrationPage;
+import com.stellarburger.pageobject.UserAccountPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,10 +16,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import static org.junit.Assert.assertEquals;
 
 public class UserAccountPageTest {
-    RegistrationPage objRegistrationPage;
-    AuthorizationPage objAuthorizationPage;
-    MainPage objMainPage;
-    WebDriver driver;
+    private RegistrationPage objRegistrationPage;
+    private AuthorizationPage objAuthorizationPage;
+    private MainPage objMainPage;
+    private WebDriver driver;
     private String name;
     private String email;
     private String password;

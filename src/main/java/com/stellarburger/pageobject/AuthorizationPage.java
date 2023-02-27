@@ -1,4 +1,4 @@
-package org.example.pageobject;
+package com.stellarburger.pageobject;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -20,7 +20,7 @@ public class AuthorizationPage {
     //  локатор для поля Email
     private final By passwordField = By.xpath("//input[@type='password']");
     //  локатор для кнопки Войти
-    private final By loginButton = By.className("button_button__33qZ0");
+    private final By loginButton = By.xpath(".//button [text()='Войти']");
 
     //метод авторизации
     @Step("Filling out and check the authorization form")

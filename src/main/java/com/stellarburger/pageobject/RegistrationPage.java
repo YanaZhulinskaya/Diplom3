@@ -1,4 +1,4 @@
-package org.example.pageobject;
+package com.stellarburger.pageobject;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -10,9 +10,9 @@ import java.time.Duration;
 public class RegistrationPage {
     private final WebDriver driver;
     //локатор для поля имя
-    private final By userField = By.xpath("//label[text()='Имя']/following-sibling::input");
+    private final By userField = By.xpath(".//input[@name='name']");
     //локатор для поля емаил
-    private final By emailField = By.xpath("//label[text()='Email']/following-sibling::input");
+    private final By emailField = By.xpath("//input[text()='Email']");
     //локатор для поля пароль
     private final By passwordField = By.xpath("//input[@type='password']");
     //локатор для кнопки регистрации

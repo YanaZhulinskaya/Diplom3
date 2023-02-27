@@ -1,7 +1,7 @@
-package org.example;
+package com.stellarburgertest;
 
 import io.qameta.allure.junit4.DisplayName;
-import org.example.pageobject.MainPage;
+import com.stellarburger.pageobject.MainPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,8 +11,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import static org.junit.Assert.assertTrue;
 
 public class CheckConstructorTest {
-    MainPage objMainPage;
-    WebDriver driver;
+    private MainPage objMainPage;
+    private WebDriver driver;
     @Before
     public void before() {
         // for testing in Chrome Browser

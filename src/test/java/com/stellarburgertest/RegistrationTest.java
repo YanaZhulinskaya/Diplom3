@@ -1,8 +1,9 @@
-package org.example;
+package com.stellarburgertest;
+import com.stellarburger.User;
 import io.qameta.allure.junit4.DisplayName;
-import org.example.pageobject.AuthorizationPage;
-import org.example.pageobject.MainPage;
-import org.example.pageobject.RegistrationPage;
+import com.stellarburger.pageobject.AuthorizationPage;
+import com.stellarburger.pageobject.MainPage;
+import com.stellarburger.pageobject.RegistrationPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,9 +16,9 @@ import java.time.Duration;
 import static org.junit.Assert.assertEquals;
 
 public class RegistrationTest {
-    RegistrationPage objRegistrationPage;
-    AuthorizationPage objAuthorizationPage;
-    WebDriver driver;
+    private RegistrationPage objRegistrationPage;
+    private AuthorizationPage objAuthorizationPage;
+    private WebDriver driver;
     private String name;
     private String email;
     private String password;

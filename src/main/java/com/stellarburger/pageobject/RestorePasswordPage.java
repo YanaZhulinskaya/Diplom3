@@ -1,11 +1,10 @@
-package org.example.pageobject;
+package com.stellarburger.pageobject;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class RestorePasswordPage {
@@ -13,7 +12,7 @@ public class RestorePasswordPage {
 
     private final static String restorePasswordPage = "https://stellarburgers.nomoreparties.site/forgot-password";
     //локатор для кнопки войти в форме востановления пароля
-    private final By authLinkByRestorePassForm = By.xpath(".//div/main/div/div/p/a");
+    private final By authLinkByRestorePassForm = By.xpath(".//a[text()='Восстановить пароль']");
 
     public RestorePasswordPage(WebDriver driver) {
         this.driver = driver;
